@@ -1,7 +1,7 @@
 //const e = require("express")
 
 
-console.log("Hello client!")
+//console.log("Hello client!")
 
 const weatherForm = document.querySelector('#frm1')
 const search = document.querySelector('input')
