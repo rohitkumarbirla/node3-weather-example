@@ -3,6 +3,7 @@ const path=require("path")
 const app=express()
 const hbs=require('hbs')
 const request=require('request')
+const port = process.env.PORT || 3000
 
 app.set('views', path.join(__dirname, '../views'));
 
@@ -65,6 +66,6 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("server is up")
 })
